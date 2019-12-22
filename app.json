@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/updata/updata",
+    "pages/select/select",
+    "pages/choose/choose",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/list/list1/list1",
+    "pages/list/list2/list2",
+    "pages/list/list3/list3",
+    "pages/list/list4/list4",
+    "pages/list/list5/list5",
+    "pages/list/list6/list6",
+    "pages/list/list7/list7",
+    "pages/list/list8/list8",
+    "pages/list/list9/list9",
+    "pages/list/list10/list10"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "请求获取您的地理位置"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F5F5F5",
+    "navigationBarTitleText": "S2-601",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#F5F5F5",
+    "list": [
+      {
+        "pagePath": "pages/start/start",
+        "text": "首页",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye-s.png"
+      },
+      {
+        "pagePath": "pages/select/select",
+        "text": "天气",
+        "iconPath": "images/weather.png",
+        "selectedIconPath": "images/weather-s.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "功能",
+        "iconPath": "images/func.png",
+        "selectedIconPath": "images/func-s.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "发现",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search-s.png"
+      },
+      {
+        "pagePath": "pages/updata/updata",
+        "text": "分享",
+        "iconPath": "images/share.png",
+        "selectedIconPath": "images/share-s.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

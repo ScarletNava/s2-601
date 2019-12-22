@@ -1,0 +1,51 @@
+<view class="wzjuzhong">
+  <text class=".gradient-text" style="font-size:50rpx">你是不是还在为去哪吃饭而纠结？</text>
+  <view class=".gradient-text" style="font-size:50rpx">赶紧试一下下面的占卜系统吧~</view>
+</view>
+
+
+<button animation="{{animationData1}}" disabled='{{dis}}' bindtap="divine" class='wenzi'>
+开始占卜
+</button>
+<view class="juzhong">
+<button bindtap="history" class="wenzi1" size="mini">使用上次禁用情况</button>
+</view>
+
+<view wx:if="{{appear==0}}" class="image">
+<image src='https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/7e3e6709c93d70cfe855426ef7dcd100baa12b22.jpg'style="width: 500rpx; height: 500rpx" ></image>
+</view> 
+<view wx:if="{{appear==1}}" class="image">
+  <image src='/images/zhanbu.png'style="width: 500rpx; height: 500rpx" ></image>
+</view> 
+<view wx:if="{{appear==0}}" >
+<view class=".gradient-text" style="font-size:30rpx">-->点击下面的按钮可以防止选到该食堂</view>
+<view class=".gradient-text" style="font-size:30rpx">点击食堂名可禁用该食堂，点击楼层可禁用该楼层</view>
+</view> 
+
+<button animation="{{animationData2}}" class='{{dis01}}' bindtap="disabled01">学生食堂</button>
+
+<view class="juzhong">
+  <button animation="{{animationData11}}" size="mini" class='{{dis11}}'bindtap="disabled11">1st</button>
+  <button animation="{{animationData21}}" size="mini" class='{{dis12}}'bindtap="disabled12">2nd</button>
+  <button animation="{{animationData31}}" size="mini" class='{{dis13}}'bindtap="disabled13">3rd</button>
+  <button animation="{{animationData41}}" size="mini" class='{{dis14}}'bindtap="disabled14">4th</button>
+  <button animation="{{animationData51}}" size="mini" class='{{dis15}}'bindtap="disabled15">5th</button>
+</view>
+
+<button animation="{{animationData3}}" class='{{dis02}}' bindtap="disabled02">教工餐厅</button>
+
+<view class="juzhong">
+  <button animation="{{animationData12}}" size="mini" class='{{dis21}}'bindtap="disabled21">1st</button>
+  <button animation="{{animationData22}}" size="mini" class='{{dis22}}'bindtap="disabled22">2nd</button>
+  <button animation="{{animationData32}}" size="mini" class='{{dis23}}'bindtap="disabled23">3rd</button>
+  <button animation="{{animationData42}}" size="mini" class='{{dis24}}'bindtap="disabled24">4th</button>
+  <button animation="{{animationData52}}" size="mini" class='{{dis25}}'bindtap="disabled25">5th</button>
+</view>
+
+<view wx:if="{{appear==1}}" class="wzjuzhong">
+  <text  class=".arrow" style="font-size:21px">
+   就决定是你了
+  </text>
+</view>
+
+<button wx:if="{{appear==1}}" animation="{{animationData4}}"  bindtap="redivine" class='wenzi-b'>重新占卜</button>

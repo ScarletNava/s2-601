@@ -1,0 +1,113 @@
+  <view class='top'>
+    <!--<text class='top-text'> </text>-->
+      <view class='top-view' style="font-size:60rpx"bindtap='goChoose'>今天吃什么?</view>
+      <view class='top-view'style="font-size:40rpx" bindtap='goChoose'>没主意？点我试试</view>
+    
+  </view>
+  <swiper class='swiper' indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key='{{index}}'>
+      <swiper-item>
+        <image src="{{item.url}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='top-view'style="font-size:50rpx">
+    <view>看看同学们今天都吃什么了</view>
+   
+  </view>
+  <view class='mid-view1'>学生食堂</view>
+  <view class='category'>
+    <view   bindtap='goList1'>
+      <image src='/images/wu.png' mode='aspectFit'></image>
+      <text>一层</text>
+    </view>
+    <view   bindtap='goList2'>
+      <image src='/images/zao.png' mode='aspectFit'></image>
+      <text>二层</text>
+    </view>
+    <view   bindtap='goList3'>
+      <image src='/images/wan.png' mode='aspectFit'></image>
+      <text>三层</text>
+    </view>
+    <view   bindtap='goList4'>
+      <image src='/images/ye.png' mode='aspectFit'></image>
+      <text>四层</text>
+    </view>
+    <view   bindtap='goList5'>
+      <image src='/images/wu.png' mode='aspectFit'></image>
+      <text>五层</text>
+    </view>
+  </view>
+  <view class='mid-view' >教工餐厅</view>
+  <view class='category'>
+    <view   bindtap='goList6'>
+      <image src='/images/wu.png' mode='aspectFit'></image>
+      <text>一层</text>
+    </view>
+    <view   bindtap='goList7'>
+      <image src='/images/zao.png' mode='aspectFit'></image>
+      <text>二层</text>
+    </view>
+    <view   bindtap='goList8'>
+      <image src='/images/wan.png' mode='aspectFit'></image>
+      <text>三层</text>
+    </view>
+    <view   bindtap='goList9'>
+      <image src='/images/ye.png' mode='aspectFit'></image>
+      <text>四层</text>
+    </view>
+    <view   bindtap='goList10'>
+      <image src='/images/wu.png' mode='aspectFit'></image>
+      <text>五层</text>
+    </view>
+  </view>
+  <view bindtap="goUpdata"class='top-view'style="font-size:50rpx">
+    <view>今天吃的什么呢?</view>
+    <view>点击底部的分享</view>
+    <view>让更多人发现它</view>
+  </view>
+ <view class='like block'>
+    <view class='title'>
+      <text>猜你喜欢</text>
+    </view>
+    <view class="list">
+      <view class='box'  >
+        <image src='/images/like/yangwei.jpg'></image>
+        <view class='tip'>
+          <text>养头发</text> 
+        </view>
+      </view>
+      <view class='box' >
+        <image src='/images/like/bugai.jpg'></image>
+        <view class='tip'>
+          <text>美容</text> 
+        </view>
+      </view>
+      <view class='box' >
+        <image src='/images/like/paidu.jpg'></image>
+        <view class='tip'>
+          <text>明目</text> 
+        </view>
+      </view>
+      <view class='box' >
+        <image src='/images/like/qingfei.jpg'></image>
+        <view class='tip'>
+          <text>清热去火</text> 
+        </view>
+      </view>
+      <view class='box'  >
+        <image src='/images/like/hugan.jpg'></image>
+        <view class='tip'>
+          <text>增肥</text> 
+        </view>
+      </view>
+      <view class='box' >
+        <image src='/images/like/jianfei.jpg'></image>
+        <view class='tip'>
+          <text>减肥</text> 
+        </view>
+      </view>
+    </view>  
+
+
+ </view>

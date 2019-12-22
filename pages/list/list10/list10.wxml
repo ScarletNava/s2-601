@@ -1,0 +1,12 @@
+<view class="title">教工餐厅五层</view>
+<scroll-view scroll-y="true" style='height:100%;' lower-threshold="50" bindscrolltolower="lower">
+  <view class='box' wx:for='{{list}}' wx:key='{{index}}' data-id='{{item.id}}' >
+    <view class='right'>
+      <text class='title'>店名：{{item.cast}}</text>
+      <view>菜名：{{item.foodname}}</view>
+      <view>价格：{{item.price}}</view>
+      <view>评价：{{item.evaluate}}</view>
+      <view>时间：{{item.time}}</view>
+    </view>
+  </view>
+</scroll-view>

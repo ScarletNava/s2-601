@@ -1,0 +1,59 @@
+.redz{
+  border-radius: 50%;
+  background:linear-gradient(45deg,#fa0000, #f88706);
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+.greenz{
+    background:linear-gradient(45deg,#15fa00, #d4f806);
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  border-radius: 50%
+}
+.containz{
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0px
+}
+.btnz{
+  background:linear-gradient(45deg,#2fc3fd, #068bf8);
+  margin-top: 5px;
+  color:#e7ebed;
+}
+.redx{
+    font-weight: bold;
+  background: linear-gradient(to right, #fa0000, #f8ab06);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  width:130px
+}
+.greenx{
+  font-weight: bold;
+  background: linear-gradient(to right, #00d612, #88db02);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  width:130px
+}
+.rowz{
+  font-weight: bold;
+  background: linear-gradient(to right, #1ae8c8, #4a8aff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  width:200rpx;
+}
+.canvas{
+  width: 100%;
+  height: 400rpx
+}
+
+#chart1{
+  top: 100rpx
+}

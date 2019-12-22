@@ -1,0 +1,23 @@
+<form bindsubmit='res'>
+  <view class="title">分享</view>
+  <view class="section">
+    <view class="section__title">食堂及窗口</view>
+        <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}"> 
+          <view class="picker0">当前选择：</view>
+          <view class="input">
+            <view class="picker">
+             {{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
+            </view>
+          </view>
+      </picker>
+    </view>
+    <view class="section__title">菜名</view>
+    <input class="input" maxlength="-1" name="foodname" placeholder="在此输入菜名" />
+    <view type="digit"class="section__title">价格</view>
+    <input class="input" maxlength="-1" name="price" placeholder="在此输入价格" />
+    <view class="section__title">评价</view>
+    <input class="input" maxlength="-1" name="evaluate" placeholder="在此输入评价（非必填）" />
+  <button class="button"form-type='submit'>提交</button>
+  <view class="att">请勿多次提交</view>
+  <view class="buttom"></view>
+</form>

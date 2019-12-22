@@ -1,0 +1,40 @@
+<view class="content">
+  <view class="info"> 
+    <!--><button bindtap="click1" class="shadoow">食堂座位实时监测</button>
+    <button bindtap="click2" class="btn1">吃哪个？同学</button><-->
+    <view class="att">今天天气怎么样呢？</view>
+    <view class="att">看看再去吃吧</view>
+    
+    <view class="city">{{city}}</view>
+    <view class="today">今日天气</view>
+    <view class="juzhong">
+      <image src="{{weather.pic}}"style="width: 64rpx; height: 48rpx" class="image"></image>
+      {{weather.tianqi1}}
+    </view>
+    <view class="weatherp">{{weather.tianqi2}}</view>
+    <view class="weatherp">{{weather.tianqi3}}</view>
+    <view class="yihang">实时温度</view>
+    <view class="temp">{{weather.wendu}}</view>
+    <view wx:if="{{appear==true}}">
+    <view class="weather">
+    <image src="../../images/T.png" style="width: 48rpx; height: 48rpx"></image>
+    {{weather.tip1}}
+    </view>
+    <view class="weather">
+     <image src="../../images/ganmao.png" style="width: 48rpx; height: 48rpx"></image>
+    {{weather.tip2}}
+    </view>
+    <view class="weather">
+     <image src="../../images/yundong.png" style="width: 48rpx; height: 48rpx"></image>
+    {{weather.tip3}}
+    </view>
+    <view class="weather">
+     <image src="../../images/UV.png" style="width: 48rpx; height: 48rpx"></image>
+    {{weather.tip4}}
+    </view>
+    </view>
+  </view>
+
+  
+</view>
+

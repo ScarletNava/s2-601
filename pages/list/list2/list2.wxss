@@ -1,0 +1,58 @@
+/* miniprogram/pages/list/list.wxss */
+.title{
+  
+  font-weight: bold;
+  background: linear-gradient(to right, violet, blueviolet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size:60rpx;
+
+
+}
+.box {
+  border: 1px solid #ddd;
+  margin: 20rpx 30rpx 40rpx 30rpx;
+  padding: 20rpx 20rpx 20rpx 20rpx;
+  font-size: 28rpx;
+  
+  overflow: hidden;
+  position: relative; 
+  border-radius: 10rpx;
+  box-shadow: 1px 1px 6rpx #ccc; 
+}.right{
+  display: block;
+  overflow: hidden;
+  
+  text-overflow: ellipsis;
+  padding-bottom: 10rpx;
+  color: #555;
+ 
+}
+
+
+
+.box view { 
+  padding-top: 0rpx;
+}
+
+.box view text {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-bottom: 10rpx;
+  color: #555;
+  font-size: 24rpx;
+}
+.box view text.title {
+  color: #333;
+  font-weight: 600;
+  font-size: 30rpx;
+  padding-bottom: 16rpx;
+}
+.box view text.see {
+  color: #FF6262;
+  padding-top: 10rpx;
+}/* pages/list/list2/list2.wxss */

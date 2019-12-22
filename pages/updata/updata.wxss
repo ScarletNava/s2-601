@@ -1,0 +1,71 @@
+/* pages/updata/updata.wxss */
+
+.title{
+  font-weight: bold;
+  background: linear-gradient(to right, #1ae8c8, #4a8aff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size:60rpx;
+}
+
+
+
+.section__title{
+  margin: 10rpx;
+  text-align:center;
+  color:violet;
+  font-size:60rpx;
+}
+.picker0{
+  margin: 10rpx;
+  text-align:left;
+  color:#ee82ee;
+  font-size:40rpx;
+}
+.picker{
+  margin: 10rpx;
+  text-align:center;
+  color:blueviolet;
+  font-size:40rpx;
+}
+.input{
+ border: 1px solid #ccc; 
+ padding: 7px 0px;
+}
+
+.button{
+  width: 80%;
+  margin-top: 20rpx;
+  background: linear-gradient(45deg, #3baaf4, #a100ec);
+  color:#e7ebed;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+	box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+}
+.att{
+  font-weight: bold;
+  background: linear-gradient(to right, violet, blueviolet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size:50rpx;
+}
+Page{
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  
+  box-sizing: border-box;
+  padding:20rpx 10rpx;
+  
+  font-size:16px;
+  background-color:#fdecfd;
+}

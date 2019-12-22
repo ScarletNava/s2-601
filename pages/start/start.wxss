@@ -1,0 +1,32 @@
+.light-t{
+  color: grey;
+  text-align: right
+}
+.gradient-text {
+  font-weight: bold;
+  background: linear-gradient(to right, #1ae8c8, #4a8aff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+.image{
+  
+  display:flex;
+ justify-content: center;
+ margin-top: 30rpx;
+}
+.btn1 {
+  width: 80%;
+  margin-top: 20rpx;
+  background: linear-gradient(45deg, #3baaf4, #a100ec);
+  color:#e7ebed;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+	box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+}

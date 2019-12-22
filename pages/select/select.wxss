@@ -1,0 +1,104 @@
+/* pages/select/select.wxss */
+.btn1 {
+  width: 80%;
+  margin-top: 20rpx;
+  background: linear-gradient(45deg, #3baaf4, #a100ec);
+  color:#e7ebed;
+  border-radius: 98rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+	box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+}
+.shadoow {
+	position: relative;
+	box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+  background:linear-gradient(45deg, #f43f3b, #ec008c);
+  color:#e7ebed
+}
+.content{
+  height:10%;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  font-family: 微软雅黑,宋体;
+  box-sizing: border-box;
+  padding:20rpx 10rpx;
+  color:#252525;
+  font-size:16px;
+  background-color: #c9e0fd;
+}
+.info{
+  margin-top:10rpx;
+  width:100%;
+  height:100%;
+}
+.att{
+  font-weight: bold;
+  background: linear-gradient(to right, violet, blueviolet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size:60rpx;
+
+}
+.today{
+  font-size:60rpx;
+  color:#0cc43a;
+  text-align:center;
+}
+.time{
+  font-size:30rpx;
+  text-align:center;
+  padding-top:20rpx;
+  color:#043567;
+}
+.city{
+  margin:20rpx;
+  border-bottom:1px solid #043567;
+  text-align:center;
+}
+.temp{
+  
+  font-size:120rpx;
+  line-height:130rpx;
+  text-align:center;
+  
+  color:#043567;
+}
+.yihang{
+  margin-top: 10rpx;
+  text-align:center;
+  color:blueviolet;
+  font-size:60rpx;
+ 
+}
+.weather{
+  
+  margin:20rpx 0;
+  font-family: 幼圆;
+}
+.weatherp{
+  margin:20rpx;
+  font-family: 幼圆;
+  color:green;
+  text-align:center;
+}
+.image{
+    display:flex;
+ justify-content: center;
+ margin-top: 5rpx
+}
+.juzhong{
+  display:flex;
+ justify-content: center;
+}
+.buttom{
+  padding: 50rpx
+}
+page{
+  background: #c9e0fd
+}

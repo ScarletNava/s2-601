@@ -1,0 +1,7 @@
+<view class=".gradient-text" style="font-size:80rpx">都要恰饭的嘛~</view>
+<view class="light-t">————欢迎使用601开发的小程序</view>
+
+<view class="image">
+  <image src='/images/jerryiphone.png'style="width: 738rpx; height: 738rpx"></image>
+</view>
+<button bindtap="goChoose" class="btn1">占卜快速入口</button>

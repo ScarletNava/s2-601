@@ -1,0 +1,26 @@
+
+ <view class="rowz">-->West</view>
+  <view class='containz'>
+  <view class='{{color4}}'>  </view><view class="{{color1}}"></view>
+ </view>
+
+ <view class='containz'>
+  <view style="color:#49d9fe">4号床</view><view style="color:#49d9fe">1号床(hp)</view>
+ </view>
+
+ <view class='containz'>
+  <view class="{{color3}}">  </view><view class="{{color2}}"></view>
+</view>
+
+<view class='containz'>
+ <view style="color:#49d9fe">3号床</view><view style="color:#49d9fe">2号床</view>
+
+
+</view>
+
+
+<view class="redx" style="font-size:20px">红色表示有人</view>
+<view class="greenx" style="font-size:20px">绿色表示没人</view>
+<canvas class = "canvas" id="chart1"
+canvas-id="sum"></canvas>
+
